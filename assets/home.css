@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lilita+One&family=Pixelify+Sans&family=Playpen+Sans&family=Prompt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Lobster&family=Pixelify+Sans&family=Poppins:ital,wght@0,300;0,400;1,500&family=Press+Start+2P&family=Roboto:ital,wght@1,100&family=Ubuntu&family=VT323&display=swap');
+body{
+    background:rgba(0, 0,0, 0.3)url('https://i.pinimg.com/564x/28/a8/04/28a80480b31feb2d5b162ffaa3932abb.jpg');
+   background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+ h1{
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    text-shadow: 8px 8px 10px rgba(17, 16, 16, 0.9);
+    font-family: VT323;
+    margin-top: 30vh;
+ }
+.button {
+    
+    
+    position: absolute;
+    top: 50%;
+    left: 45%;
+   
+    
+
+}
+.play, .rules{
+    display: block;
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 30px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 8px 8px 8px rgb(12, 12, 12);
+    /* font-family: 'Lilita One', sans-serif; */
+    font-family: VT323;
+    
+}
+
+.play:hover{
+    background-color: rgb(10, 10, 10); 
+    color: rgb(236, 232, 232);
+
+}
+.rules:hover{
+    background-color: rgb(10, 10, 10); 
+    color: white;
+
+}

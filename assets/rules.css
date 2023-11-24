@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Lobster&family=Pixelify+Sans&family=Poppins:ital,wght@0,300;0,400;1,500&family=Press+Start+2P&family=Roboto:ital,wght@1,100&family=Ubuntu&family=VT323&display=swap');
+
+body{
+    background:rgba(0, 0,0, 0.6)url(./assets/rule.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    
+}
+img{
+  height: 8vh; 
+  cursor: pointer;
+}
+h1{
+    position: relative;
+    left: 38%;
+    margin-top: 5%;
+    font-size: 70px;
+}
+
+ol{
+    position: relative;
+    left: 25%;
+    margin-top: 2%;
+    font-size: 40px;
+    line-height: 70px;
+   
+}
+*{
+    font-family: VT323;
+}
+

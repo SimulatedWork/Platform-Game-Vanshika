@@ -1,0 +1,12 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    margin: 0;
+    background-image: url(https://i.pinimg.com/564x/41/d2/86/41d286c9d852acc05ebe5c1c148bad7f.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
